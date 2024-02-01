@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1{
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+    
+    #userDetails {
+      margin-top: 1rem;
+    }
+  
+  .box-get-user{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1.5rem 30rem;
+  }
